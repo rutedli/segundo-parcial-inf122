@@ -40,12 +40,10 @@ function App() {
       </div>
       <div className="contadores-container">
         <div className="contador">
-          <h3>Metas Completadas</h3>
-          <p>{metasCompletas.length}</p>
+          <p>Metas Completadas : {metasCompletas.length}</p>
         </div>
         <div className="contador">
-          <h3>Metas Pendientes</h3>
-          <p>{metasPendientes.length}</p>
+          <p>Metas Pendientes : {metasPendientes.length}</p>
         </div>
       </div>
       <div className="listas-container">
