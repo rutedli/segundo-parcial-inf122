@@ -1,45 +1,21 @@
+/* App.css */
 .App {
   text-align: center;
+  margin: 120px 300px;
 }
 
-.formulario-container {
-  margin: 20px auto;
-  max-width: 300px;
-}
 
-.lista-container {
+.contadores-container {
   display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  justify-content: space-between;
 }
 
-.lista {
-  margin: 0 10px;
-  width: 90%;
+.contador {
+  width: 48%; /* Ajusta el ancho según tus preferencias */
+  border: 2px solid yellow; /* Marco verde */
+  padding: 10px;
+  margin-bottom: 20px;
 }
-
-/* Ajustamos los estilos para MetaAgregada */
-.meta-agregada {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.meta-agregada h2 {
-  margin: 0;
-}
-
-.meta-agregada ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.meta-agregada li {
-  margin: 5px 0;
-}
-/* App.css */
-
 
 .listas-container {
   display: flex;
@@ -47,7 +23,5 @@
 }
 
 .lista {
-   /* Ajusta el ancho según tus preferencias */
+  width: 1000%; /* Ajusta el ancho según tus preferencias */
 }
-
-/* Añade cualquier otro estilo CSS necesario para tus componentes */

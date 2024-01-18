@@ -1,0 +1,32 @@
+.FormularioMeta {
+    max-width: 30px; /* Ajusta el ancho máximo según tus preferencias */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    padding: 200px;
+    background-color: yellow; /* Color de fondo */
+    border: 1px solid #ccc; /* Borde del formulario */
+    border-radius: 10px; /* Bordes redondeados */
+  }
+  
+
+  
+.formulario-container input {
+    width: 78%; 
+    padding: 30px;
+    border: 5px solid #ccc; 
+    border-radius: 5px;
+    font-zice: 50px;
+  }
+  
+.formulario-container button {
+    background-color: #4caf50; 
+    color: blue; 
+    padding: 30px;
+    border: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+.formulario-container button:hover {
+    background-color: #45a049; /* Cambia de color al pasar el mouse */
+  }
+  

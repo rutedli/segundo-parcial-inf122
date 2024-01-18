@@ -35,22 +35,25 @@ function App() {
 
   return (
     <div className="App">
-      <div className="formulario-container">
+      <div className="agregar-meta-container">
+        <h2>Mis metas</h2>
         <FormularioMeta agregarMeta={agregarMeta} />
       </div>
-      <div className="listas-container">
-        <div className="lista">
-          <ListaMetas
-            metas={metasCompletas}
-            titulo="Metas Completadas"
-            onCompletada={marcarComoCompletada}
-            onEliminar={(index) => eliminarMeta(index, true)}
-          />
+      <div className="contadores-container">
+        <div className="contador">
+          <h3>Metas Completadas</h3>
+          <p>{metasCompletas.length}</p>
         </div>
+        <div className="contador">
+          <h3>Metas Pendientes</h3>
+          <p>{metasPendientes.length}</p>
+        </div>
+      </div>
+      <div className="listas-container">
+        
         <div className="lista">
           <ListaMetas
-            metas={metasPendientes}
-            titulo="Metas Pendientes"
+            metas={metasPendientes} 
             onCompletada={marcarComoCompletada}
             onEliminar={(index) => eliminarMeta(index, false)}
           />

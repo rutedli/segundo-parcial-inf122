@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import  './FormularioMeta.css';
 
 const FormularioMeta = ({ agregarMeta }) => {
   const [meta, setMeta] = useState('');
