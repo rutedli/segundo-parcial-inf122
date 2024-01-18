@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './ListaMetas.css';
 
 const ListaMetas = ({ metas, titulo, onCompletada, onEliminar }) => {

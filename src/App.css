@@ -1,21 +1,27 @@
-/* App.css */
 .App {
   text-align: center;
   margin: 120px 300px;
 }
+.agregar-meta-conteiner h2{
+  background-color:grin;
 
+}
 
+.contador {
+  flex: 1; 
+  border-radius: 8px; 
+    border: 5px solid yellow;
+  padding: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-right: 10px;
+}
 .contadores-container {
   display: flex;
   justify-content: space-between;
 }
 
-.contador {
-  width: 48%; /* Ajusta el ancho según tus preferencias */
-  border: 2px solid yellow; /* Marco verde */
-  padding: 10px;
-  margin-bottom: 20px;
-}
+
 
 .listas-container {
   display: flex;
@@ -23,5 +29,14 @@
 }
 
 .lista {
-  width: 1000%; /* Ajusta el ancho según tus preferencias */
+  width: 1000%;
+}
+.Meta {
+  border: 10x solid #4CAF50;
+  border-radius: 8px; 
+  padding: 50px; 
+  margin-bottom: 10px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

@@ -1,36 +1,19 @@
 .ListaMetas {
-    width: 100%; /* O ajusta el ancho según tu diseño */
-    margin-top: 20px; /* Ajusta según sea necesario */
+    width: 100%; 
+    margin-top: 20px;
   }
   
-  .Meta {
-    border: 2px solid #4CAF50; /* Borde verde */
-    border-radius: 8px; /* Bordes redondeados */
-    padding: 10px; /* Espaciado interno */
-    margin-bottom: 10px; /* Espaciado inferior entre metas */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
+ 
   .MetaCompletada {
-    color: #4CAF50; /* Texto verde para metas completadas */
+    color: #4CAF50; 
   }
   
-  /* Estilos para Contadores */
   
   .ContadoresMetas {
-    width: 100%; /* O ajusta el ancho según tu diseño */
+    width: 100%; 
     display: flex;
     justify-content: space-between;
-    margin-top: 20px; /* Ajusta según sea necesario */
+    margin-top: 20px;
   }
   
-  .Contador {
-    flex: 1; /* Toma el mismo espacio para ambos contadores */
-    border: 2px solid #4CAF50; /* Borde verde */
-    border-radius: 8px; /* Bordes redondeados */
-    padding: 10px; /* Espaciado interno */
-    text-align: center; /* Alinea el texto al centro */
-    margin-right: 10px; /* Espaciado entre contadores */
-  }
+ 
