@@ -2,37 +2,52 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.formulario-container {
+  margin: 20px auto;
+  max-width: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.lista-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.lista {
+  margin: 0 10px;
+  width: 90%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Ajustamos los estilos para MetaAgregada */
+.meta-agregada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
+
+.meta-agregada h2 {
+  margin: 0;
+}
+
+.meta-agregada ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.meta-agregada li {
+  margin: 5px 0;
+}
+/* App.css */
+
+
+.listas-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lista {
+   /* Ajusta el ancho según tus preferencias */
+}
+
+/* Añade cualquier otro estilo CSS necesario para tus componentes */
